@@ -1,0 +1,37 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: transform 0.3s, opacity 0.3s;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(50, 50, 50);
+  color: white;
+  padding: 10px;
+  box-shadow: 0 0 10px rgb(0, 0, 0.4);
+}
+
+.scrolled {
+  transform: translateY(-100%);
+  opacity: 0;
+}
+
+.logo {
+  width: 100%;
+  display:contents;
+}
+
+
+.flag {
+
+  height: 30px;
+  padding: 10px;
+}
+
+.muName {
+  
+  font-size: 40px;
+  padding-right: 40px;
+}
