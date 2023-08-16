@@ -1,0 +1,21 @@
+.container {
+  background-color: rgb(247, 249, 252);
+}
+
+.contactButtons {
+  background-color: rgb(247, 249, 252);
+  padding-top: 48px;
+  padding-bottom: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+.p {
+  text-align: center;
+}
+
+.button {
+  width: 120px;
+}
+

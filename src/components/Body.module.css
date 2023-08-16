@@ -22,18 +22,7 @@
   flex: 1;
 }
 
-h3 {
-  padding: 10px;
-  text-align: center;
-  font-size: 30px;
-  color: rgb(80, 80, 80);
-}
 
-p {
-  padding: 7px;
-  font-size: 30px;
-  color: rgb(100, 100, 100);
-}
 
 .skills {
   padding-top: 20%;
