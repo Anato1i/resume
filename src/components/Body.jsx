@@ -8,7 +8,7 @@ import reactPng from '../images/react.png'
 import gitPng from '../images/git.png'
 import githubPng from '../images/github.png'
 
-function Body() {
+const Body = () => {
   return (
     <div className={styles.container}>
       <div className={styles.backgroundPhoto}>
