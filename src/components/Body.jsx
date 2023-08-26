@@ -15,14 +15,14 @@ const Body = () => {
         <img className={styles.photo} src={photo} alt="Фото"></img>
       </div>
       <div className={styles.content}>
-        <h3>Summary:</h3>
-        <p>Contact me if you need an IT specialist.</p>
+        <h3 className={styles.typingTextSummary}>Summary:</h3>
+        <p className={styles.animateText}>Contact me if you need an IT specialist.</p>
 
-        <p>
+        <p className={styles.animateText}>
           I am ready to create new products and improve in the world of digital
           technologies.
         </p>
-        <p>
+        <p className={styles.animateText}>
           I am open to suggestions and looking for a project to contribute value
           to!
         </p>
