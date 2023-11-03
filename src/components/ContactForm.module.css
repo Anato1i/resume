@@ -5,7 +5,7 @@
 
 .contactButtons {
   background-color: rgb(247, 249, 252);
-  padding-top: 48px;
+  padding-top: 10px;
   padding-bottom: 48px;
   display: flex;
   flex-wrap: wrap;
@@ -14,6 +14,7 @@
 }
 .p {
   text-align: center;
+  margin-top: 50px;
 }
 
 .button {
