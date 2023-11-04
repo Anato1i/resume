@@ -1,6 +1,5 @@
 .container {
   display: flex;
-  background-color: rgb(199, 199, 199);
 }
 
 .portfolio {
@@ -26,16 +25,15 @@
   list-style-type: none;
   position: relative;
   overflow: hidden;
-  box-shadow: 5px 5px 9px gray;
 }
 
-.portfolioList img {
+.miniPhoto {
   display: block;
   transition: transform 0.2s ease-in-out;
 }
 
-.portfolioList li:hover img {
-  transform: scale(1.07);
+.miniPhoto:hover {
+  transform: scale(0.93);
 }
 
 .miniPhoto {
