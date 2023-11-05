@@ -4,6 +4,7 @@ import Body from './components/Body'
 import Portfolio from './components/Portfolio'
 import ContactForm from './components/ContactForm'
 import Footer from './components/Footer'
+import ButtonJoke from './components/ButtonJoke'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <Body />
       <Portfolio />
+      <ButtonJoke />
       <ContactForm />
       <Footer />
     </div>

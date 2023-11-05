@@ -1,0 +1,22 @@
+.buttonJokeContainer {
+  background-color: blue;
+  position: relative;
+  width: 100%;
+  height: 30vh;
+  overflow: hidden;
+}
+
+.jokeButton {
+  width: 150px;
+  position: absolute;
+  transition: transform 0.3s, top 1s, left 1s;
+  background-color: #808080;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.jokeButton:hover {
+  background-color: #9c9c9c;
+}
