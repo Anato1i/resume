@@ -21,7 +21,7 @@ const Portfolio = () => {
               </a>
             </li>
             <li>
-              <a href="https://anato1i.github.io/landing-page" target="blank">
+              <a href="https://anato1i.github.io/cozy_house" target="blank">
                 <img className={styles.miniPhoto} src={cozyhouse} alt="icon" />
               </a>
             </li>
