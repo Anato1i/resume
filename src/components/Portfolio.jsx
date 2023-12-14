@@ -1,6 +1,7 @@
 import styles from './Portfolio.module.css'
 import brandLift from '../images/brandLift.jpeg'
 import studiaFarb from '../images/studiaFarb.jpeg'
+import cozyhouse from '../images/cozyhouse.jpeg'
 
 const Portfolio = () => {
   return (
@@ -17,6 +18,11 @@ const Portfolio = () => {
             <li>
               <a href="https://anato1i.github.io/landing-page" target="blank">
                 <img className={styles.miniPhoto} src={studiaFarb} alt="icon" />
+              </a>
+            </li>
+            <li>
+              <a href="https://anato1i.github.io/landing-page" target="blank">
+                <img className={styles.miniPhoto} src={cozyhouse} alt="icon" />
               </a>
             </li>
           </ul>

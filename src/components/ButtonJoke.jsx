@@ -41,7 +41,7 @@ class ButtonJoke extends Component {
             onClick={this.handleButtonClick}
             style={buttonPosition}
           >
-            Сlick Мe
+            Click
           </button>
         )}
       </div>
